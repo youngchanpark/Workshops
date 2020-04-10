@@ -4,7 +4,7 @@ Young-Chan's Workshop/Tutorial Resources
 
 #### 1. [Git & BitBucket](https://docs.google.com/presentation/d/14qtJ_xUgP-58Qvr_9-RbZ4RsPtvDTQ9uPy8gjeXFIcU/edit?usp=sharing) (Korean)
 
-#### 2. [Unit testing](https://docs.google.com/document/d/1wL_IJ6_t44IdkKrag2h2sdyu36RHD7dkNn-HYistHVE/edit?usp=sharing) (Korean)
+#### 2. [Unit testing](https://docs.google.com/presentation/d/1Rdv0yZ9CsErf7lj8ycbkqF-NAGUi05G4v8ThjrRtYFg/edit?usp=sharing) (Korean)
 
 #### 3. [CI / CD](https://docs.google.com/presentation/d/1bybLd5wFqm16Xoo-A8mydSg6vCy7EHGPGrDlFCHjAoY/edit?usp=sharing) (Korean)
 
