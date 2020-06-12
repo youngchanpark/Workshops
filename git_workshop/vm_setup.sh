@@ -17,3 +17,4 @@ do
     echo $user_id | sudo passwd --stdin $user_id
 done
 
+sudo chmod 777 -R /home
