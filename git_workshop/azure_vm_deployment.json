@@ -1,0 +1,74 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "koreasouth"
+        },
+        "networkInterfaceName": {
+            "value": "git-study573"
+        },
+        "networkSecurityGroupName": {
+            "value": "git-study-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": [
+                {
+                    "name": "SSH",
+                    "properties": {
+                        "priority": 300,
+                        "protocol": "TCP",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "22"
+                    }
+                }
+            ]
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/3d30919d-ebbe-4617-94c5-34c57163f477/resourceGroups/Study/providers/Microsoft.Network/virtualNetworks/Study-vnet"
+        },
+        "publicIpAddressName": {
+            "value": "git-study-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "git-study"
+        },
+        "virtualMachineComputerName": {
+            "value": "git-study"
+        },
+        "virtualMachineRG": {
+            "value": "Study"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "ycp93"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "studydiag296"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/3d30919d-ebbe-4617-94c5-34c57163f477/resourceGroups/Study/providers/Microsoft.Storage/storageAccounts/studydiag296"
+        }
+    }
+}
